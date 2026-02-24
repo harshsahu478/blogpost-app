@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 import Container from '../Container/Container'
 import Logo from '../Logo'
-import LogoutBtn from './LogOutBtn'
+import LogoutBtn from './LogoutBtn'
 
 function Header() {
   const navigate = useNavigate()
