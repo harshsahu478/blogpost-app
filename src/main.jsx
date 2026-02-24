@@ -7,7 +7,7 @@ import store from "./store/store.js";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './pages/Home.jsx'
 import AddPost from "./pages/AddPost";
-import SignUp from './pages/Signup'
+import SignUp from './pages/SignUp'
 import EditPost from "./pages/EditPost";
 import Post from "./pages/Post";
 import AllPosts from "./pages/AllPosts";
