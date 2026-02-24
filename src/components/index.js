@@ -3,7 +3,7 @@ import Footer from "./Footer/Footer";
 import Button from "./Button";
 import Input from "./Input";
 import Logo from "./Logo";
-import RTE from "./RTE.JSX";
+import RTE from "./RTE.jsx";
 import Select from "./Select";
 import SignUp from "./SignUp";
 import PostCard from "./PostCard";
