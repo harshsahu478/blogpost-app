@@ -1,16 +1,82 @@
-# React + Vite
+# 📝 BlogPost App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack blog platform built using **React, Appwrite, and Tailwind CSS**.  
+This application allows users to securely register, log in, and manage blog posts with full CRUD functionality.
 
-Currently, two official plugins are available:
+The project demonstrates authentication handling, protected routes, rich text editing, state management, and deployment practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 [Live Demo](https://harsh-blogpost.netlify.app/)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 GitHub Repository
+
+🔗 https://github.com/harshsahu478/blogpost-app  
+
+---
+
+## ✨ Features
+
+- 🔐 User Authentication (Signup / Login / Logout)
+- 🛡 Protected Routes with role-based access control
+- ✍ Create, Edit, Delete, and View blog posts (CRUD)
+- 📝 Rich Text Editor using TinyMCE
+- 📋 Form validation using React Hook Form
+- 🗂 Backend integration using Appwrite (Database, Auth, Storage)
+- 🌐 Deployed on Netlify with environment variables
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- React Router
+- Redux Toolkit
+- React Hook Form
+- TinyMCE
+
+### Backend / BaaS
+- Appwrite
+
+### Deployment
+- Netlify
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/harshsahu478/blogpost-app.git
+cd blogpost-app
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Setup Environment Variables (.env)
+
+Create a `.env` file and add:
+
+```env
+VITE_APPWRITE_URL=your_appwrite_url
+VITE_APPWRITE_PROJECT_ID=your_project_id
+VITE_APPWRITE_DATABASE_ID=your_database_id
+VITE_APPWRITE_COLLECTION_ID=your_collection_id
+```
+
+### 4️⃣ Run the development server
+
+```bash
+npm run dev
+```
