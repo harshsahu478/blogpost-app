@@ -1,9 +1,9 @@
 # 📝 BlogPost App
 
-A full-stack blog platform built using **React, Appwrite, and Tailwind CSS**.  
-This application allows users to securely register, log in, and manage blog posts with full CRUD functionality.
+A full-stack blog platform built using **React, Appwrite and Tailwind CSS**.  
+This application allows users to securely register, log in and manage blog posts with full CRUD functionality.
 
-The project demonstrates authentication handling, protected routes, rich text editing, state management, and deployment practices.
+The project demonstrates authentication handling, protected routes, rich text editing, state management and deployment practices.
 
 ---
 
@@ -22,7 +22,7 @@ The project demonstrates authentication handling, protected routes, rich text ed
 
 - 🔐 User Authentication (Signup / Login / Logout)
 - 🛡 Protected Routes with role-based access control
-- ✍ Create, Edit, Delete, and View blog posts (CRUD)
+- ✍ Create, Edit, Delete and View blog posts (CRUD)
 - 📝 Rich Text Editor using TinyMCE
 - 📋 Form validation using React Hook Form
 - 🗂 Backend integration using Appwrite (Database, Auth, Storage)
