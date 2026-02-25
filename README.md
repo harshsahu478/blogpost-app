@@ -15,8 +15,7 @@ The project demonstrates authentication handling, protected routes, rich text ed
 
 ## 💻 GitHub Repository
 
-🔗 https://github.com/harshsahu478/blogpost-app  
-
+🔗 [View Repository](https://github.com/harshsahu478/blogpost-app)
 ---
 
 ## ✨ Features
@@ -63,8 +62,22 @@ cd blogpost-app
 ```bash
 npm install
 ```
+### 3️⃣ Backend Setup (Appwrite)
 
-### 3️⃣ Setup Environment Variables (.env)
+Before running the project, create an Appwrite project and configure:
+
+- Create a Database
+- Create a Collection named `posts`
+- Add attributes:
+  - title (string)
+  - content (string)
+  - featuredImage (string)
+  - userId (string)
+
+- Create a Storage Bucket for blog images
+- Set appropriate read/write permissions
+
+### 4️⃣ Setup Environment Variables (.env)
 
 Create a `.env` file and add:
 
@@ -75,7 +88,7 @@ VITE_APPWRITE_DATABASE_ID=your_database_id
 VITE_APPWRITE_COLLECTION_ID=your_collection_id
 ```
 
-### 4️⃣ Run the development server
+### 5️⃣ Run the development server
 
 ```bash
 npm run dev
