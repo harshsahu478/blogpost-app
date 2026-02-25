@@ -72,6 +72,7 @@ Before running the project, create an Appwrite project and configure:
   - title (string)
   - content (string)
   - featuredImage (string)
+  - status (string)
   - userId (string)
 
 - Create a Storage Bucket for blog images
